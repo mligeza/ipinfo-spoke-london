@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get geographic data from a public IP address</description>
+        <internal_name>get_geographic_data_from_ip</internal_name>
+        <label_cache>[{"name":"{{action.ip_address}}","label":"action➛IP address","type":"action","ref":""},{"name":"{{step[c39d59a1-860c-41a4-a5dd-98d21b8fa62b].response_body}}","label":"step➛Call IPInfo REST API➛Response Body","type":"step","ref":""},{"name":"{{step[c39d59a1-860c-41a4-a5dd-98d21b8fa62b].status_code}}","label":"step➛Call IPInfo REST API➛Status Code","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].h}}","label":"step➛Parse Returned Data➛h","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].ho}}","label":"step➛Parse Returned Data➛ho","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].hos}}","label":"step➛Parse Returned Data➛hos","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].host_1}}","label":"step➛Parse Returned Data➛host_1","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].c}}","label":"step➛Parse Returned Data➛c","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].ci}}","label":"step➛Parse Returned Data➛ci","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].cit}}","label":"step➛Parse Returned Data➛cit","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].city}}","label":"step➛Parse Returned Data➛city","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].r}}","label":"step➛Parse Returned Data➛r","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].re}}","label":"step➛Parse Returned Data➛re","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].reg}}","label":"step➛Parse Returned Data➛reg","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].regi}}","label":"step➛Parse Returned Data➛regi","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].regio}}","label":"step➛Parse Returned Data➛regio","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].region}}","label":"step➛Parse Returned Data➛region","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].co}}","label":"step➛Parse Returned Data➛co","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].cou}}","label":"step➛Parse Returned Data➛cou","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].coun}}","label":"step➛Parse Returned Data➛coun","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].count}}","label":"step➛Parse Returned Data➛count","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].countr}}","label":"step➛Parse Returned Data➛countr","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].country}}","label":"step➛Parse Returned Data➛country","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].l}}","label":"step➛Parse Returned Data➛l","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].la}}","label":"step➛Parse Returned Data➛la","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].lat}}","label":"step➛Parse Returned Data➛lat","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].lati}}","label":"step➛Parse Returned Data➛lati","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].latit}}","label":"step➛Parse Returned Data➛latit","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].latitu}}","label":"step➛Parse Returned Data➛latitu","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].latitud}}","label":"step➛Parse Returned Data➛latitud","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].latitude}}","label":"step➛Parse Returned Data➛latitude","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].lo}}","label":"step➛Parse Returned Data➛lo","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].lon}}","label":"step➛Parse Returned Data➛lon","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].long}}","label":"step➛Parse Returned Data➛long","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].longi}}","label":"step➛Parse Returned Data➛longi","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].longit}}","label":"step➛Parse Returned Data➛longit","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].longitu}}","label":"step➛Parse Returned Data➛longitu","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].longitud}}","label":"step➛Parse Returned Data➛longitud","type":"step","ref":""},{"name":"{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].longitude}}","label":"step➛Parse Returned Data➛longitude","type":"step","ref":""},{"name":"{{step[c39d59a1-860c-41a4-a5dd-98d21b8fa62b].u_ipinfo_token}}","label":"step➛Call IPInfo REST API➛IPInfo Token","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Geographic Data from IP</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 15:32:32</sys_created_on>
+        <sys_id>44a15190db962300a5860d53ca9619da</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Get Geographic Data from IP</sys_name>
+        <sys_package display_value="IPInfo Spoke" source="x_293871_ipinfo_sp">b9119dd4db562300a5860d53ca9619ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">b9119dd4db562300a5860d53ca9619ab</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_44a15190db962300a5860d53ca9619da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-10 08:52:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=44a15190db962300a5860d53ca9619da"/>
+    <sys_variable_value action="delete_multiple" query="document_key=44a15190db962300a5860d53ca9619da"/>
+    <sys_element_mapping action="delete_multiple" query="id=44a15190db962300a5860d53ca9619da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>city</field>
+        <id>44a15190db962300a5860d53ca9619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-10 08:26:27</sys_created_on>
+        <sys_id>697690a5db122300a5860d53ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-10 08:26:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44a15190db962300a5860d53ca9619da</table>
+        <value>{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].city}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>country</field>
+        <id>44a15190db962300a5860d53ca9619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-10 08:26:27</sys_created_on>
+        <sys_id>e17690a5db122300a5860d53ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-10 08:26:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44a15190db962300a5860d53ca9619da</table>
+        <value>{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].country}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>hostname</field>
+        <id>44a15190db962300a5860d53ca9619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-10 08:26:27</sys_created_on>
+        <sys_id>a57690a5db122300a5860d53ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-10 08:26:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44a15190db962300a5860d53ca9619da</table>
+        <value>{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].host_1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ip_address</field>
+        <id>44a15190db962300a5860d53ca9619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-10 08:26:27</sys_created_on>
+        <sys_id>ed7690a5db122300a5860d53ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-10 08:26:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44a15190db962300a5860d53ca9619da</table>
+        <value>{{action.ip_address}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>latitude</field>
+        <id>44a15190db962300a5860d53ca9619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-10 08:26:27</sys_created_on>
+        <sys_id>2d7690a5db122300a5860d53ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-10 08:26:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44a15190db962300a5860d53ca9619da</table>
+        <value>{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].latitude}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>longitude</field>
+        <id>44a15190db962300a5860d53ca9619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-10 08:26:27</sys_created_on>
+        <sys_id>657690a5db122300a5860d53ca96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-10 08:26:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44a15190db962300a5860d53ca9619da</table>
+        <value>{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].longitude}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>region</field>
+        <id>44a15190db962300a5860d53ca9619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-10 08:26:27</sys_created_on>
+        <sys_id>a17690a5db122300a5860d53ca96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-10 08:26:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44a15190db962300a5860d53ca9619da</table>
+        <value>{{step[d8c9275d-c69d-42f0-a1ab-23a2fd7fdbbe].region}}</value>
+    </sys_element_mapping>
+</record_update>
